@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+# Rangkuman WAN Pertemuan 8-14
 
-You can use the [editor on GitHub](https://github.com/JantoniSaputraSitopu/UAS_Jaringan-Nirkabel/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JantoniSaputraSitopu/UAS_Jaringan-Nirkabel/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Penjelasan perbedaan 1G-4G
+-1G ini adalah jaringan telepon genggam generasi pertama yang diluncurkan di akhir 70-an. Teknologinya masih sangat analog dan kualitas suara telepon genggamnya masih jelek dan sering putus-putus. Daya tahan baterenya pun juga jelek. Secara teori, kecepatan maksimal 1G adalah 2.4 Kbps (jangan harap bisa streaming drama korea ya pakai jaringan ini)
+-2G artinya adalah generasi kedua. Telepon genggam banyak mengalami peningkatan saat bermigrasi dari 1G ke 2G. Sinyal radio yang dipakai oleh 2G bentuknya digital, bukan analog seperti yang digunakan di 1G, jadi lebih bisa diandalkan dan aman. Konsep GSM dan CSMA diimplementasikan pada saat itu. Kecepatan maksimum 2G dengan GPRS adalah 50 Kbps, dan dengan EDGE adalah 1 Mbps (ini adalah masa-masanya kita suka berkirim SMS dengan ikon-ikon lucu dan kadang juga alay).
+-3G artinya adalah generasi ketiga. Inilah awal dari internet telepon genggam yang lebih cepat dan kemampuan multimedia seperti pengunduhan video, e-mail, berbagi gambar, dan pengalaman browsing. Ponsel pintar diperkenalkan di generasi ini dan 3G menggunakan teknologi baru yang dikenal sebagai UMTS. Secara teori, kecepatan maksimum 3G adalah 21.6 Mbps melalui HSPA+teknologi.
+-4G artinya adalah generasi keempat. Ini adalah masanya dorongan untuk kecepatan, kualitas, dan keamanan tinggi. Dua teknologi paling penting setelah 4G adalah MIMO dan OFDM, dan dua standar 4G yang paling banyak digunakan adalah WiMAX dan LTE. Secara teori, kecepatan 4G untuk benda bergerak adalah 100 Mbps, dan 1 Gbps untuk benda tidak bergerak, meskipun pada praktiknya penggunaannya sering bervariasi.
+### Penjelasan Tentang GSM
+Global System for Mobile Communication (GSM mulanya singkatan dari Groupe Spécial Mobile) adalah sebuah teknologi komunikasi seluler yang bersifat digital. Teknologi GSM banyak diterapkan pada komunikasi bergerak, khususnya telepon genggam. Teknologi ini memanfaatkan gelombang mikro dan pengiriman sinyal yang dibagi berdasarkan waktu, sehingga sinyal informasi yang dikirim akan sampai pada tujuan. GSM dijadikan standar global untuk komunikasi seluler sekaligus sebagai teknologi seluler yang paling banyak digunakan orang di seluruh dunia. 
+### Penjelasan CDMA
+Code division multiple access (CDMA) adalah sebuah bentuk pemultipleksan (bukan sebuah skema pemodulasian) dan sebuah metode akses secara bersama yang membagi kanal tidak berdasarkan waktu (seperti pada TDMA) atau frekuensi (seperti pada FDMA), tetapi dengan cara mengkodekan data dengan sebuah kode khusus yang diasosiasikan dengan tiap kanal yang ada dan menggunakan sifat-sifat interferensi konstruktif dari kode-kode khusus itu untuk melakukan pemultipleksan.Dalam perkembangan teknologi telekomunikasi telepon seluler terutama yang berkaitan dengan generasi ke-tiga (3G), dan mekanisme CDMA pengkodean pada CDMA menggunakan kode menyebar unik untuk menyebarkan data baseband sebelum transmisi. Sinyal ditransmisikan dalam saluran, yang di bawah tingkat kebisingan. Penerima menggunakan CORELATOR untuk Despread Sinyal yang diinginkan, yang dilewatkan melalui Filter Bandpass sempit. Sinyal yang tidak diinginkan tidak akan despread dan tidak akan melewati filter. Kode mengambil bentuk hati-hati dirancang satu / urutan nol diproduksi di tingkat yang lebih tinggi dari data baseband. Tingkat kode menyebarkan disebut sebagai chip rate daripada bit rate.
+### Penjelasan Tentang Satelit
+Satelit adalah benda langit yang tidak memiliki sumber cahaya sendiri dan bergerak mengelilingi planet tertentu sambil mengikuti planet tersebut beredar dengan periode revolusi dan rotasi tertentu. Ada dua macam satelit, yakni satelit alam dan satelit buatan. Satelit alam adalah benda-benda luar angkasa bukan buatan manusia yang mengorbit sebuah planet atau benda lain yang lebih besar daripada dirinya. Contohnya Bulan yang merupakan satelit dari Bumi.
+Karakteristik Satelit
+Cara kerja satelit secara system konvensional :
+Yaitu dengan mengirimkan sinyal dari computer dan direlai oleh satelit tanpa di lakukan pemprosesan dalam satelit. Kelemahan metode ini, computer yang terhubung langsung pada satelit harus bekerja selama 24 jam. Jika salah satu computer dimatikan maka hubungan ke computer tersebut akan terputus. Keuntungannya satelit komunikasi konvensional dapat digunakan tanpa perlu dimodifikasi. Computer dalam satelit berfungsi untuk menyimpan sementara informasi yang secara otomatis dapat dilakukan.Cara kerja transmisi data melalui satelit :Pemanfaatan system komunikasi satelit telah memberikan kemampuan bagi manusia untuk berkomunikasi dan mendapatkan informasi dari berbagai penjuru dunia secara simultan tanpa memperhatikan jarak relatifnya. Komponen dasar dari transmisi satelit adalah :Stasiun bumi, digunakan untuk mengirim dan menerima datam Satelit, disebut juga dengan transponder PC yang menggunakan jaringan internet dengan jaringan satelit dikatagorikan se-bagai jaringan wireless dengan menggunakan gelombang mikro. Gelombang mikro ini akan ditransmisikan dan diproses oleh stasiun satelit bumi yang kemudian ditransmisikan ke satelit di angkasa luar, dan selanjutnya akan dinerima kembali oleh stasiun sateit bumi tujuan, cara kerja transmisi data melalui satelit dengan memperhatikan komponen-komponen tersebut, yaitu satelit menerima sinyal dari stasiun bumi (up-link) kemudian memperkuat sinyal, mengubah frekuensi dan mentransmisikan kembali data ke stasiun bumi penerima yang lain (down-link). Dalam transmisi satelit ter-jadi penundaan atau delay karena sinyal harus bergerak menuju ruang angkasa dan kembali lagi ke bumi, jeda waktu sekitar 0,5 sekon. Satelit menggunakan frek-uensi yang berbeda untuk menerima dan mentransmisikan data. Jangkauan frekuensi satelit adalah: 4-6 giga hertz,disebut dengan C-band 12-14 giga hertz, disebut dengan Ku-Band 20 giga hertz.
+### Penjelasan Tentang GPS
+Pengertian GPS (Global Positioning System) adalah sistem navigasi yang menggunakan satelit didesain agar dapat menyediakan posisi secara instan, kecepatan dan informasi waktu di hampir semua tempat di muka bumi, setiap saat dan dalam kondisi cuaca apapun. Dengan menggunakan alat ini maka dimungkinkan user dapat melacak posisi kendaraan, armada ataupun mobil dalam keadaan Real-Time.
+-Pengertian GPS beserta fungsinya :
+Fungsi GPS untuk menentukan letak di permukaan bumi dengan bantuan sinkronisasi sinyal satelit yang mengirimkan sinyal gelombang mikro ke Bumi , sehingga dapat digunakan untuk menentukan kecepatan, arah, letak, dan waktu.
+-Jenis-jenis GPS :
+1. GPS untuk Militer
+Pengertian GPS beserta fungsinya GPS dapat dimanfaatkan untuk mendukung sistem pertahanan militer. Lebih jauh dari itu bisa memantau pergerakan musuh saat terjadi peperangan, juga bisa menjadi penuntun arah jatuhnya bom sehingga bisa lebih tertarget.
+2. GPS untuk Navigasi
+Pengertian GPS beserta fungsinya dalam kebutuhan berkendara sistem GPS pun sangat membantu, dengan adanya GPS Tracker terpasang pada kendaraan maka akan membuat perjalanan semakin nyaman karena arah dan tujuan jalan bisa diketahui setelah GPS mengirim posisi kendaraan kita yang diterjemahkan ke dalam bentuk peta digital.
+3. GPS untuk Sistem Informasi Geografis
+Pengertian GPS beserta fungsinya untuk sistem informasi geografis perlu digunakannya GPS agar dapat dipermudah, seperti untuk pembuatan peta, mengukur jarak perbatasan, atau bisa dijadikan sebagai referensi pengukuran suatu wilayah.
+4. GPS untuk Sistem Pelacakan Kendaraan
+Pengertian GPS beserta fungsinya digunakan untuk kebutuhan sistem pelacakan yaitu alat penampil dan penerima sinyal yang berbeda lokasi. Contohnya kita bisa mengetahui lokasi kendaraan yang hilang dengan melihat titik kordinat yang dihasilkan dari alat yang terpasang dalam kendaraan tersebut, untuk melihatnya bisa melalui media smartphone atau alat-alat khusus lainnya.
+5. GPS untuk Pemantau Gempa
+Saat ini teknologi GPS yang terus ditingkatkan menghasilkan tingkat ketelitian dan keakuratan yang sangat tinggi sehingga GPS dapat dimanfaatkan untuk memantau pergerakan tanah di bumi. Dengan hal itu maka para ahli Geologi dapat memperkirakan kemungkinan terjadinya gempa di suatu wilayah.
+ ### Penjelasan Tentang WIMAX
+WiMAX merupakan singkatan dari Worldwide Interoperability for Microwave Access. WiMAX adalah sebuah teknologi akses nirkabel pita lebar yang memiliki kecepatan akses tinggi dengan memiliki jangkauan yang luas. Jaringan WiMAX disebut juga sebagai Metropolitan Area Network (MAN), jangkauan tersebut dapat mencakup area yang cukup luas. WiMAX merupakan evolusi dari teknologi sebelumnya yaitu BWA atau broadband wireless access dengan ditambahkan fitur-fitur yang menarik. Disamping kecepatan data tinggi yang dimiliki WiMAX, WiMAX juga merupakan sebuah teknologi dengan open standar. Dengan kecepatan data yang besar, WiMAX dapat diaplikasikan sebagai koneksi broadband ‘last mile’ ataupun backhaul.
+-Sistem kerja WiMAX :
+WiMAX terdiri dari dua bagian yaitu base station Wimax dan Wimax receiver atau disebut juga customer premise equipment (CPE).
+WiMAX Base Station
+Base station WiMAX terdiri dari elektronik indoor dan tower Wimax. Umumnya satu base-station menjangkau radius 6 mile (secara teori dapat menjangkau hingga radius 50 km atau 30 mile, tapi prakteknya baru terbatas sekitar 10 km atau 6 mile. Dalam area layanan tersebut dimanapun dapat mengakses internet secara wireless. Base station Wimax menggunakan MAC layer (didefinisikan dalam standart). Sebuah interface umum yang membuat jaringan interoperable dan dapat mengalokasikan bandwitch uplink dan downlink ke pelanggan berdasarkan kebutuhan pada satuan waktu tertentu. Setiap base station menjangkau daerah yang dinamakan cell,maksimal radius dari cell secara teori adalah 50 km (tergantung band frekuensi yang dipilih), namun pengembangan yang umum adalah radius 3-10 km. Seperti jaringan mobile seluler, antena pada base-station dapat omnidirectional (cell yang circular), atau directional (linear)atau sektoral.
+Wimax receiver
+Wimax receiver dapat terdiri dari antenna yang terpisah (bagian yang terpisah antara receiver electronic dan antenna) atau dapat berupa box sendiri atau PCMCIA card dalam laptop. Akses ke base-station Wimax hamper sama dengan mengakses acces point dalam jaringan WiFi. Namun masih tingginya biaya instalasi CPE menjadi kendala karena mmerlukan tenaga ahli dalam instalasi CPE untuk system BWA.
+Backhaul
+Backhaul lebih ke koneksi dari acces point ke provider dan koneksi dari provider ke jaringan inti. Wimax telah menggunakan teknologi frekuensi tinggi. Pengoptimalan Wimax terlertak pada jenis transmitter (beam antenna) dan lokasi penggunaannya (dinding,gedung tinggi). Selain itu pemancar transmitter HF dilakkan dengan sitem Beam Shaping. Jadi mulai standar 802.16a, semua antenna pada sebuah base station dapat saling terhubung untuk menyesuaikan beam characteristic terhadap jangkauan dan bandwitch. Teknologi Transmisinya pun tergolong baru. Modulasi nya sinyal carrier dilakukan secara parallel melalui modulasi Orthogonal Frequency Division Multiplexing(OFDM).
+### Penjelasan Tentang Antena
+Antena adalah suatu alat listrik yang dapat mengubah sinyal listrik menjadi gelombang elektromagnetik kemudian memancarkannya ke ruang bebas atau sebaliknya yaitu menangkap gelombang elektromagnetik dari ruang bebas dan mengubahnya menjadi sinyal listrik. Antena juga tergolong sebagai Transduser karena dapat mengubah suatu bentuk energi ke bentuk energi lainnya. Antena merupakan salah satu komponen atau elemen terpenting dalam suatu rangkaian dan perangkat Elektronika yang berkaitan dengan Frekuensi Radio ataupun gelombang Elektromagnetik. Perangkat Elektronika tersebut diantaranya adalah Perangkat Komunikasi yang sifatnya tanpa kabel atau wireless seperti Radio, Televisi, Radar, Ponsel, Wi-Fi, GPS dan juga Bluetooth. Antena diperlukan baik bagi perangkat yang menerima sinyal maupun perangkat yang memancarkan sinyal.
+-Jenis-jenis Antena dan Perbedaannya : 
+1.Antena omni directional : adalah antena sebagai pemancar yang memiliki polarisasi atau arah pancaran ke segala arah atau bisa dibilang 360 derajat. 
+2.Antena directional : adalah antena pengarah yang bisa sebagai pemancar maupun sebagai penerima dengan polarisasi ke arah tertentu atau satu arah saja.
+Contoh jenis"nya: 
+*Antena Omni
+*Antena Sectoral
+*Antena Grid
+*Antena Yagi
+*Antena Parabolik
+*Antena Wajan Bolik
